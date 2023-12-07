@@ -4,14 +4,14 @@ var Environment = class {
    * @type {I18n | null}
    */
   I18N = null;
-  LANGUAGE = "zh-cn";
-  // AI提供商: auto, openai, azure, workers
+  LANGUAGE = "en-IN";
+  // AIprovider: auto, openai, azure, workers
   AI_PROVIDER = "auto";
-  // 允许访问的Telegram Token， 设置时以逗号分隔
+  // allowed access Telegram Token， Separate by commas when setting
   TELEGRAM_AVAILABLE_TOKENS = [];
-  // 允许所有人使用
+  // Allow everyone to use
   I_AM_A_GENEROUS_PERSON = false;
-  // 白名单
+  // whitelist
   CHAT_WHITE_LIST = [];
   // 用户配置
   LOCK_USER_CONFIG_KEYS = [];
